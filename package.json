@@ -4,31 +4,31 @@
   "version": "1.0.1",
   "author": "TAKAHASHI Kazunari <takahashi@1syo.net>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts", "travisci"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "travisci"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/1syo/hubot-travisci-notifier.git"
   },
-
   "bugs": {
     "url": "https://github.com/1syo/hubot-travisci-notifier/issues"
   },
-
   "dependencies": {
-    "coffee-script": ">=1.6",
-    "mustache": "*"
+    "coffee-script": ">=1.12",
+    "mustache": "^2.3.0"
   },
-
   "devDependencies": {
     "supertest": "*",
     "hubot": "*",
     "hubot-mock-adapter": "*",
-    "mocha": "*",
+    "mocha": "^2.0.0",
     "chai": "*",
     "sinon-chai": "*",
     "sinon": "*",
+    "grunt": "*",
     "grunt-mocha-test": "*",
     "grunt-release": "*",
     "matchdep": "*",
@@ -39,9 +39,7 @@
     "coveralls": "*",
     "grunt-coveralls": "*"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
